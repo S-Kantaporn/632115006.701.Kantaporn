@@ -1,3 +1,6 @@
+//Kantaporn Sriwichai
+//632115006
+
 public class Circle {
     // Circle attribute
     private double radius;
