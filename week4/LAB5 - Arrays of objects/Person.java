@@ -1,6 +1,3 @@
-//Name:Kantaporn Sriwichai
-//632115006
-
 package week4;
 
 public class Person {
@@ -61,7 +58,10 @@ public class Person {
         gpa = personGpa;
     }
 
-    //wrote average mothod 
-
+    //wrote average method 
+    public void average() {
+        
+        
+    }
    
 }
