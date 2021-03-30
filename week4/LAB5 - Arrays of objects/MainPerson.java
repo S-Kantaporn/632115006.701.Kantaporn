@@ -57,10 +57,11 @@ public class MainPerson {
             System.out.println("-----------------------------------------------");
         }
         
-        //create array to store score for 100 people by using math random and then find show and find the average by using method
-        
-
-        
-
+        //create array to store score for 100 people by using math random and then show and find the average by using method
+        int random[] = new int[100];
+        for (int i =0; i< random.length; i++) {
+            random[i] = (int)(Math.random()*100) +1;
+            System.out.println(random[i]);
+        }
     }
 }
