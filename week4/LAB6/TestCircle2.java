@@ -1,6 +1,7 @@
-package week4;
+package week41;
 
-public class TestCircle {
+import week4.Circle;
+public class TestCircle2 {
     public static void main(String[] args) {
         Circle myCircle = new Circle(5.0);
         
@@ -11,7 +12,7 @@ public class TestCircle {
         //test#1
         System.out.println(myCircle.getRadius());
         //test#2
-        System.out.println(Circle.numberOfObjects);
+        System.out.println(myCircle.numberOfObjects);
         //test#3
         System.out.println("The number of object is " + myCircle.getNumberOfObjects());
         //test#4
